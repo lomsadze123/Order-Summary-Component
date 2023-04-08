@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #E0E8FF url(/assets/background.svg) no-repeat top;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display';
+}
+
+.main {
+    background-color: white;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.items {
+    margin: 45px 48px 48px 48px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37.04px;
+    color: #1F2E55;
+}
+
+.review {
+    color: #717FA6;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.music, .cost {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cost {
+    background-color: #F7F9FF;
+    justify-content: space-between;
+    padding: 25px 24px;
+    border-radius: 11px;
+}
+
+.firstLi {
+    font-size: 16px;
+    font-weight: 900;
+    color: #1F2E55;
+    line-height: 21.17px;
+}
+
+.secondLi {
+    font-size: 16px;
+    font-weight: 500;
+    color: #717FA6;
+    line-height: 21.17px;
+    margin-top: 6px;
+}
+
+.change {
+    font-size: 14px;
+    font-weight: 700;
+    color: #382AE1;
+    line-height: 18.52px;
+}
+
+.change:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
+
+button {
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    background-color: #382AE1;
+    border-style: none;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 19.03%);
+    font-size: 15px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 19.85px;
+    margin: 32px 0;
+    font-family: 'Red Hat Display';
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #766CF1;
+}
+
+.end {
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19.85px;
+    text-decoration: none;
+}
+
+.end:hover {
+    color: #1F2E55;
+}
