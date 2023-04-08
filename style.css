@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    background: #E0E8FF url(/assets/background.svg) no-repeat top;
+    background: #E0E8FF url(assets/background.svg) no-repeat top;
     background-size: 100%;
     display: flex;
     justify-content: center;
